@@ -1,0 +1,8 @@
+Given an array of integers nums which is sorted in ascending order, and an integer target, 
+write a function to search target in nums. If target exists, then return its index. Otherwise, return -1.
+
+You must write an algorithm with O(log n) runtime complexity.
+
+See this StackOverflow answer[0] for a quick refresh on o(log n) complexity.
+
+[0] https://stackoverflow.com/a/2307330/2442239
