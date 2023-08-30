@@ -1,0 +1,16 @@
+#!/usr/bin/python
+
+class Solution:
+    def numberOfSteps(self, num: int) -> int:
+        steps = 0
+
+        while num > 0:
+            num = num / 2 if num % 2 == 0 else num - 1
+            steps += 1
+        return steps
+
+solution = Solution()
+
+print(solution.numberOfSteps(14))
+print(solution.numberOfSteps(8))
+print(solution.numberOfSteps(123))
